@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'El Messiri', sans-serif;
+  color: #40514E;
+}
+h1{
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  font-size: 5.62rem;
+}
+h2{
+  font-family: 'El Messiri', sans-serif;
+  font-weight: normal;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  line-height: 2;
+  border: 0;
+  padding: 0;
+}
+h3{
+  font-family: 'El Messiri', sans-serif;
+  color: #11999E;
+}
+p{
+    line-height: 2;
+}
+a{
+  color: #11999E;
+  font-family: 'El Messiri', sans-serif;
+  text-decoration:none;
+  margin: 10px 20px;
+}
+a:hover{
+  color: azure;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+.intro{
+  width: 25%;
+  margin: auto;
+}
+.contact_message{
+  width: 25%;
+  margin: 50px auto 50px auto;
+}
+
+.top-container{
+  background-color: #85F4FF;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  padding-top: 100px;
+}
+.bottom-container{
+  margin: 100px auto 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #85F4FF;
+
+}
+.last_footer{
+  margin: 20px 0;
+  padding-top: 50px;
+  font-weight: lighter;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align:left;
+
+}
+/* .profile{
+  background-color: #B8FFF9;
+} */
+.skill_image{
+  height: 200px;
+  width: 200px;
+  margin-right: 20px;
+  float: left;
+}
+.skill_image2{
+  height: 200px;
+  width: 350px;
+  margin-left: 20px;
+  float: right;
+}
+/* .skills{
+  background-color: #42C2FF;
+} */
+
+.fir-img{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  display: inline-block;
+}
+.sec-img{
+  position: absolute;
+  left: 200px;
+  bottom: 350px;
+  display: inline-block;
+}
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'El Messiri', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #299ee6;
+  background-image: -webkit-linear-gradient(top, #299ee6, #184969);
+  background-image: -moz-linear-gradient(top, #299ee6, #184969);
+  background-image: -ms-linear-gradient(top, #299ee6, #184969);
+  background-image: -o-linear-gradient(top, #299ee6, #184969);
+  background-image: linear-gradient(to bottom, #299ee6, #184969);
+  text-decoration: none;
+}
